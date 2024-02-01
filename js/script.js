@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.carousel').carousel({
-    interval: 1000
+    interval: 2000
   });
 
   $('#contactForm').submit(function(event) {
