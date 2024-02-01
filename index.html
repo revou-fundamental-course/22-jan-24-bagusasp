@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Groceries</title>
+  <link rel="icon" href="https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>E-Groceries</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#packages">Our Packages</a></li>
+        <li><a href="#call-to-action">Order Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="home" class="text-center mt-4 mb-4">Welcome to E-Groceries</h2>
+    <p class="text-center">Your Online Grocery Solution for Freshness and Convenience</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <section id="banner" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner1.jpg" class="d-block w-100" alt="Banner 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner2.jpg" class="d-block w-100" alt="Banner 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner3.jpg" class="d-block w-100" alt="Banner 3">
+              </div>
+            </div>
+          </section>                 
+        </div>
+        <div class="col-md-4">
+          <aside id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="#" method="post">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </aside>          
+        </div>
+      </div>
+    </div>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial">
+              <h3>John Doe</h3>
+              <p>"E-Groceries has made my life so much easier! I love the quality of the products and the quick delivery."</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <h3>Jane Smith</h3>
+              <p>"I've been using E-Groceries for months now, and I'm impressed by their excellent service. Highly recommended!"</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <h3>David Johnson</h3>
+              <p>"The variety of packages offered by E-Groceries is fantastic. It caters to all my needs!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="service-explanation">
+      <h2>Our Services</h2>
+      <p>At E-Groceries, we strive to provide the best online grocery shopping experience for our customers. Here are some key features of our service:</p>
+      <ul>
+        <li>Wide Selection: We offer a wide range of fresh vegetables, fruits, and other grocery items to cater to your needs.</li>
+        <li>Quality Guarantee: We ensure the quality and freshness of our products, so you can shop with confidence.</li>
+        <li>Convenient Delivery: Enjoy the convenience of doorstep delivery at your preferred time slots.</li>
+        <li>Customizable Packages: Choose from our customizable packages or create your own to suit your preferences.</li>
+        <li>Excellent Customer Support: Our dedicated customer support team is available to assist you with any inquiries or concerns.</li>
+      </ul>
+    </section>   
+    <section id="packages">
+      <h2>Our Packages</h2>
+      <div class="package">
+        <div class="package-item">
+          <h3>Fresh Vegetables</h3>
+          <p>Get a variety of fresh vegetables delivered to your doorstep.</p>
+        </div>
+        <div class="package-item">
+          <h3>Fresh Fruits</h3>
+          <p>Enjoy a selection of fresh fruits delivered right to your home.</p>
+        </div>
+        <div class="package-item">
+          <h3>Instant Delivery</h3>
+          <p>Need groceries quickly? Opt for our instant delivery option.</p>
+        </div>
+        <div class="package-item">
+          <h3>Others</h3>
+          <p>Explore our other package options for your grocery needs.</p>
+        </div>
+      </div>
+    </section>        
+
+    <section id="call-to-action">
+      <h2>Order Now!</h2>
+      <p>Order now and enjoy the convenience!</p>
+      <button class="btn btn-success">Order Now</button>
+    </section>
+  </main>
+
+  <footer>
+    <p class="text-center">&copy; 2024 E-Groceries by Bagus Angkasawan Sumantri Putra. </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

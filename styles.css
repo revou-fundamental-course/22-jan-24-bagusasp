@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section, aside {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#testimonials {
+  padding: 20px;
+}
+
+#testimonials h2 {
+  text-align: center;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#service-explanation {
+  padding: 20px;
+}
+
+#service-explanation h2 {
+  text-align: center;
+}
+
+#service-explanation p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#service-explanation ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#service-explanation ul li {
+  margin-bottom: 10px;
+}
+
+.col-md-4 {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.carousel-inner,
+#contact {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#call-to-action {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+#call-to-action h2 {
+  margin-top: 0;
+}
+
+#call-to-action button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#call-to-action button:hover {
+  background-color: #45a049;
+}
+
+#testimonials,
+#service-explanation,
+#packages {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#packages h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.package {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.package-item {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .package-item {
+    width: 100%;
+  }
+}
